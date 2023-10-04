@@ -34,7 +34,9 @@ prices = {
     "rozetka": 38.003
 }
 
-matching_stores = [store for store, price in prices.items()
-                   if lower_limit <= price <= upper_limit]
+matching_stores = []
+for store, price in prices.items():
+    if lower_limit <= price <= upper_limit:
+        matching_stores.append(store)
 
 print(f'match:{matching_stores}')
