@@ -21,7 +21,7 @@ if age.isdigit():
         print('Ви Артем? Але білетів вже немає!')
     elif verif_age > 65 and verif_age < 124:
         print('Покажіть пенсійне посвідчення!')
-    elif verif_age > 124 and verif_age <0:
+    elif verif_age > 124:
         print('Перевірте введені данні')
     else:
         print('А білетів вже немає!')
