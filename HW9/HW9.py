@@ -1,5 +1,3 @@
-# Наришіть декоратор, який вимірює час виконання функції
-# Задекоруйте цим декоратором вашу програму "Касир"
 from lib import timer_decorator
 from lib import verif_age
 from lib import determine_year_form
